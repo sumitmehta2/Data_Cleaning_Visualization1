@@ -81,12 +81,12 @@ Data_Cleaning_Visualization/
 
 ## 🚀 Author
 
-**Siddheshwar Mane**
+**Sumit mehta**
 
 BCA (Data Science)
 
 Sri Balaji University, Pune
 
-GitHub: https://github.com/siddheshwarmane16
+GitHub: https://github.com/sumitmehta2
 
-LinkedIn: https://linkedin.com/in/siddheshwarmane16
+LinkedIn: https://linkedin.com/in/sumitmehta2
