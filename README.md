@@ -1,50 +1,66 @@
-🧹 Data Cleaning & Visualization using Python
-📌 Project Overview
+# Data Cleaning & Visualization using Python
 
-This project demonstrates the complete Data Cleaning and Exploratory Data Analysis (EDA) process using Python. The raw retail sales dataset was cleaned, processed, and analyzed to uncover meaningful business insights through interactive visualizations.
+## 📌 Project Overview
 
-🎯 Objectives
-Clean raw and inconsistent data
-Handle missing values
-Remove duplicate records
-Detect and treat outliers
-Perform Exploratory Data Analysis (EDA)
-Create meaningful visualizations
-Generate business insights for decision-making
-🛠️ Technologies Used
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Jupyter Notebook
-📊 Visualizations
+This project demonstrates the complete process of **Data Cleaning** and **Exploratory Data Analysis (EDA)** using Python. The retail sales dataset was cleaned, analyzed, and visualized to identify meaningful business insights.
 
-The project includes the following charts:
+---
 
-📈 Sales Distribution
-💰 Profit Distribution
-🛍️ Category Count
-🌍 Region-wise Sales
-📊 Region-wise Profit
-💳 Payment Method Distribution
-👥 Customer Type Distribution
-📦 Quantity Distribution
-📉 Sales vs Profit Scatter Plot
-🔥 Correlation Heatmap
-📅 Monthly Sales Trend
-🏙️ Top 10 Cities by Sales
-📦 Profit by Category
-📊 Sales Boxplot
-🔗 Pairplot Analysis
-📈 Business Insights
-Sales vary significantly across transactions.
-Profit differs across product categories.
-Some cities contribute more to overall sales.
-Sales and Profit have a positive relationship.
-Regional performance varies considerably.
-Customer purchasing patterns can help improve business strategies.
-📂 Project Structure
+## 🎯 Objectives
+
+* Clean raw data
+* Handle missing values
+* Remove duplicate records
+* Detect and treat outliers
+* Perform Exploratory Data Analysis (EDA)
+* Generate business insights through visualizations
+
+---
+
+## 🛠️ Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
+
+---
+
+## 📊 Visualizations
+
+* Sales Distribution
+* Profit Distribution
+* Category Count
+* Region-wise Sales
+* Region-wise Profit
+* Payment Method Distribution
+* Customer Type Distribution
+* Quantity Distribution
+* Sales vs Profit
+* Correlation Heatmap
+* Monthly Sales Trend
+* Top 10 Cities by Sales
+* Profit by Category
+* Sales Boxplot
+* Pairplot
+
+---
+
+## 📈 Key Insights
+
+* Sales vary across different regions and cities.
+* Profit differs by product category.
+* Some cities contribute significantly more sales than others.
+* Sales and Profit have a positive correlation.
+* Customer purchasing patterns help identify business opportunities.
+
+---
+
+## 📁 Project Structure
+
+```text
 Data_Cleaning_Visualization/
 │
 ├── data/
@@ -52,54 +68,51 @@ Data_Cleaning_Visualization/
 │   └── cleaned_retail_sales.csv
 │
 ├── images/
-│   ├── Sales_Distribution.png
-│   ├── Profit_Distribution.png
-│   ├── Category_Count.png
-│   ├── Region_Wise_Sales.png
-│   ├── Region_Wise_Profit.png
-│   ├── Payment_Method_Distribution.png
-│   ├── Customer_Type_Distribution.png
-│   ├── Quantity_Distribution.png
-│   ├── Sales_vs_Profit.png
-│   ├── Correlation_Heatmap.png
-│   ├── Monthly_Sales_Trend.png
-│   ├── Top_10_Cities_by_Sales.png
-│   ├── Profit_by_Category.png
-│   ├── Sales_Boxplot.png
-│   └── Pairplot.png
+│   ├── sales_distribution.png
+│   ├── profit_distribution.png
+│   ├── ...
 │
 ├── Data_Cleaning_Visualization.ipynb
 ├── requirements.txt
 └── README.md
-▶️ How to Run
-Clone the repository:
+```
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository
+
+```bash
 git clone https://github.com/sumitmehta2/Data_Cleaning_Visualization.git
-Navigate to the project folder:
+```
+
+2. Open the project folder
+
+```bash
 cd Data_Cleaning_Visualization
-Install the required libraries:
+```
+
+3. Install the required libraries
+
+```bash
 pip install -r requirements.txt
-Open Jupyter Notebook:
-jupyter notebook
-Run Data_Cleaning_Visualization.ipynb.
-📌 Project Features
-Data Cleaning
-Missing Value Handling
-Duplicate Removal
-Outlier Detection
-Exploratory Data Analysis (EDA)
-Business Insight Generation
-Professional Data Visualizations
-📧 Author
-Sumit Mehta
+```
 
-🎓 BCA (Data Science)
+4. Open and run the notebook
 
-💻 Aspiring Data Analyst | Data Scientist | Machine Learning Enthusiast
+```bash
+jupyter notebook Data_Cleaning_Visualization.ipynb
+```
 
-🔗 GitHub: https://github.com/sumitmehta2
+---
 
-🔗 LinkedIn: https://www.linkedin.com/in/sumitmehta2
+## 👨‍💻 Author
 
-⭐ Support
+**Sumit Mehta**
 
-If you found this project useful, consider giving it a ⭐ Star on GitHub. It helps others discover the project and motivates future improvements.
+BCA (Data Science)
+
+GitHub: https://github.com/sumitmehta2
+
+LinkedIn: https://www.linkedin.com/in/sumitmehta2
